@@ -5,8 +5,8 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
-- Thành viên: xem `TEAM.md`
+- Tên nhóm:G1
+- Thành viên: Nguyễn Tấn Dũng, Lê Huy Anh
 - Candidate problem được chọn (1 câu):
 - Quyết định cuối: Go / Not Yet / No-Go
 
