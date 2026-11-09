@@ -101,50 +101,52 @@ Giả định nhóm kiểm chứng trong buổi này:
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn sâu cá nhân theo phương pháp The Mom Test (hỏi về trải nghiệm và sự việc cụ thể trong 2 tuần gần nhất).
+Cách đã dùng: Phỏng vấn sâu cá nhân theo phương pháp The Mom Test (hỏi về hành vi, sự việc cụ thể và cách xử lý thực tế trong 2–4 tuần gần nhất, không hỏi mớm giải pháp).
 
 #### Interview Snapshot 1
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | Cán bộ trực hòm thư hỗ trợ sinh viên & hành chính khoa |
-| Câu nói đáng nhớ nhất (nguyên văn) | *"Nhiều bạn sinh viên gửi mail tiêu đề ghi mỗi chữ 'Em chào thầy cô', nội dung thì vừa xin hoãn thi vừa hỏi đổi lịch học, mình đọc xong chẳng biết nên chuyển cho phòng Khảo thí hay phòng Đào tạo."* |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Sáng thứ Hai đầu tuần, hòm thư nhận gần 30 email sau 2 ngày cuối tuần. Có 2 email xin cấp bảng điểm gấp bị trôi xuống dưới do cán bộ mải trả lời các câu hỏi thủ tục chung. |
-| Hiện đang xử lý bằng cách nào (workaround)? | Đọc lướt từng mail, gắn nhãn màu thủ công (Label) trên Gmail theo kinh nghiệm, cái nào không chắc thì forward vào nhóm Zalo chung của các phòng ban để hỏi 'việc này bên nào xử lý'. |
-| Mất bao lâu, bao lần? | Khoảng 45–60 phút mỗi buổi sáng, diễn ra đều đặn từ thứ Hai đến thứ Sáu. |
-| Insight / opportunity rút ra | Nỗi đau đọc hiểu và phân định ranh giới phòng ban là có thật; email thường xuyên bị thiếu thông tin định danh (như mã số sinh viên, lớp). |
+| Người được hỏi (vai trò, không ghi tên thật) | Hiệu trưởng một trường liên cấp (Tiểu học & THCS) |
+| Câu nói đáng nhớ nhất (nguyên văn) | *"Phụ huynh lẫn giáo viên hai khối cứ nhắn tin riêng hoặc gửi đơn viết tay chung chung 'nhờ cô xem giúp', tôi đọc xong nhiều khi phải gọi ngược lại hỏi xem đây là việc của khối Tiểu học hay THCS, thuộc mảng học vụ hay bán trú để chuyển đúng Phó Hiệu trưởng."* |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Đầu tuần trước sau đợt kiểm tra giữa kỳ, có 4 phản ánh của phụ huynh về xếp lịch thi bù gửi lẫn vào hòm thư điện tử của trường và tin nhắn Zalo cá nhân. Do kiêm nhiệm nhiều việc và không có đầu mối phân luồng cụ thể, 1 phản ánh bị sót mất 3 ngày mới chuyển đến Tổ phó phụ trách khảo thí, khiến phụ huynh bức xúc gọi thẳng lên đường dây nóng. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Tự đọc lướt vào đầu giờ sáng và cuối giờ chiều, chụp màn hình hoặc forward tin nhắn vào nhóm Zalo "Ban Giám hiệu", gõ thêm một dòng giao việc kèm tag tên người phụ trách. |
+| Mất bao lâu, bao lần? | 30–45 phút mỗi ngày làm việc; phát sinh liên tục 15–20 yêu cầu/tuần từ phụ huynh và giáo viên hai cấp học. |
+| Insight / opportunity rút ra | Nhu cầu tiếp nhận qua văn bản tự do là có thật vì phụ huynh và giáo viên rất ngại dùng các biểu mẫu phức tạp; điểm nghẽn lớn nhất là đọc hiểu nội dung chưa rõ ràng để xác định đúng người xử lý (học vụ, hành chính, bán trú, kỷ luật). |
 
 #### Interview Snapshot 2
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | Nhân sự vận hành nội bộ (Operations Executive) công ty công nghệ |
-| Câu nói đáng nhớ nhất (nguyên văn) | *"Dù công ty đã có mẫu Google Form riêng nhưng nhân viên vẫn cứ tiện tay ping Slack hoặc gửi email tự do vì bảo 'điền form lâu lắm'."* |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Tuần trước có nhân viên báo hỏng máy in qua email chung của phòng Hành chính - Nhân sự, nhưng người quản lý thiết bị nghỉ phép đột xuất, email không được chuyển tiếp kịp nên việc in hợp đồng bị đình trệ cả buổi sáng. |
-| Hiện đang xử lý bằng cách nào (workaround)? | Cài đặt rule lọc từ khóa đơn giản trong Outlook; tuy nhiên chỉ bắt được các từ chuẩn (như 'hóa đơn', 'nghỉ phép'), còn các từ viết tắt hoặc mô tả lỗi máy móc phức tạp thì rule bị trượt, vẫn phải mở ra đọc tay. |
-| Mất bao lâu, bao lần? | Mất khoảng 15–20 phút/ngày để rà lại các email lọt qua bộ lọc từ khóa. |
-| Insight / opportunity rút ra | Rule lọc từ khóa cố định không đủ linh hoạt; người dùng có tâm lý chuộng viết văn bản tự do hơn là tuân thủ form cứng. |
+| Người được hỏi (vai trò, không ghi tên thật) | Cán bộ phụ trách quản lý kinh tế cấp xã |
+| Câu nói đáng nhớ nhất (nguyên văn) | *"Người dân gửi đơn hoặc gọi điện lên hỏi về thủ tục đăng ký kinh doanh hộ cá thể, hỗ trợ mặt bằng buôn bán hay cấp phép dịch vụ rất hay nói chung chung; cán bộ phải ngồi gặng hỏi từng ý rồi mới biết việc này thuộc mảng kinh tế hay phải phối hợp với bên địa chính - xây dựng."* |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Thứ Năm tuần trước, có 3 hộ dân gửi phản ánh về việc ô nhiễm tiếng ồn và lấn chiếm lòng đường kinh doanh. Đơn gửi chung về Ủy ban xã nhưng ghi thông tin lộn xộn, văn thư chuyển sang bộ phận địa chính - môi trường xử lý mất 2 ngày, sau đó bên địa chính chuyển trả lại vì liên quan đến giấy phép kinh doanh buôn bán của phòng kinh tế, làm kéo dài thời gian phản hồi cho dân. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Dùng sổ theo dõi tiếp nhận viết tay kết hợp nhóm chat nội bộ; cán bộ đọc đơn, gạch chân các ý chính bằng bút dạ quang rồi phân loại theo từng nhóm việc, việc nào chồng chéo thì mang trực tiếp sang bàn phòng ban khác để trao đổi miệng. |
+| Mất bao lâu, bao lần? | Mất khoảng 15–20 phút cho mỗi đơn thư phức tạp; trung bình xử lý 8–12 vụ việc điều phối liên ngành mỗi tuần. |
+| Insight / opportunity rút ra | Các yêu cầu mang tính giao thoa liên ngành rất dễ bị chuyển lòng vòng giữa các bộ phận; việc thiếu thông tin ban đầu khiến cán bộ phải xác minh lại nhiều lần trước khi thụ lý. |
 
 #### Interview Snapshot 3 (Tín hiệu phản bác / hoài nghi)
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | Trưởng nhóm kỹ thuật dự án phần mềm |
-| Câu nói đáng nhớ nhất (nguyên văn) | *"Quy mô team dưới 20 người thì cứ tag thẳng tên nhau trên Slack mà làm cho nhanh, tạo quy trình điều phối AI làm gì cho rườm rà và thêm điểm nghẽn."* |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi một bạn tester báo lỗi qua kênh chung, dev đọc được tự nhận việc luôn, không cần ai đứng ra phân chia hay gán ticket. |
-| Hiện đang xử lý bằng cách nào (workaround)? | Trao đổi trực tiếp, không dùng hệ thống hòm thư tập trung hay phiếu yêu cầu. |
-| Mất bao lâu, bao lần? | Không mất thời gian điều phối trung gian. |
-| Insight / opportunity rút ra | **Tín hiệu phản bác:** Bài toán điều phối yêu cầu chỉ thực sự phát sinh nỗi đau khi quy mô tổ chức đủ lớn (có nhiều phòng ban chuyên biệt và hòm thư chung). Với các nhóm nhỏ hoặc nội bộ dự án ít người, trao đổi trực tiếp là phương án tối ưu nhất. |
+| Người được hỏi (vai trò, không ghi tên thật) | Phó trưởng Công an xã |
+| Câu nói đáng nhớ nhất (nguyên văn) | *"Bên công an có quy trình tiếp nhận tin báo, sổ nhật ký trực ban 24/7 và hệ thống phần mềm chuyên ngành bảo mật riêng của Bộ. Tình huống an ninh trật tự phải xử lý theo đúng điều lệnh và chỉ đạo trực tiếp của chỉ huy trực ban, tuyệt đối không bao giờ đưa dữ liệu lên các nền tảng AI bên ngoài hay để phần mềm tự động điều phối."* |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Đêm trực cuối tuần có tin báo của người dân về vụ gây mất trật tự công cộng; cán bộ trực ban tiếp nhận điện thoại, ghi sổ trực ban, báo cáo trực tiếp Phó trưởng công an trực chỉ huy và cử tổ tuần tra xuống hiện trường ngay trong 10 phút. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Tiếp nhận qua đường dây nóng, cổng Dịch vụ công Bộ Công an hoặc trực ban tiếp dân; phân công trực tiếp bằng mệnh lệnh chỉ huy và ghi sổ nhật ký nghiệp vụ. |
+| Mất bao lâu, bao lần? | 1–2 phút cho khâu tiếp nhận và phát lệnh; không có độ trễ trung gian. |
+| Insight / opportunity rút ra | **Tín hiệu phản bác mạnh mẽ:** Lực lượng công an xã và các đơn vị lực lượng vũ trang có quy trình trực ban khép kín, phân cấp mệnh lệnh rõ ràng và yêu cầu tối thượng về bảo mật thông tin nhà nước. Không được áp dụng giải pháp điều phối AI vào lĩnh vực an ninh trật tự hoặc các nghiệp vụ thuộc ngành dọc có quy định bảo mật riêng. |
 
 #### Tổng hợp kiểm chứng
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Phỏng vấn sâu (The Mom Test) | 3 người (1 cán bộ hành chính, 1 nhân sự vận hành, 1 tech lead) | - 2/2 người ở quy mô tổ chức có hòm thư chung xác nhận người gửi thường xuyên bỏ qua form cứng để gửi text tự do.<br>- Cán bộ trực mất 45–60 phút/ngày phân loại thủ công.<br>- Rule lọc từ khóa hay bị sập với văn bản viết tắt/đa nội dung. | - 1/3 người (tech lead nhóm nhỏ) khẳng định nhóm dưới 20 người không có nhu cầu điều phối qua trung gian; dùng AI điều phối là rườm rà không cần thiết. |
+| Phỏng vấn sâu (The Mom Test) | 3 người (1 Hiệu trưởng trường liên cấp, 1 Cán bộ kinh tế xã, 1 Phó trưởng Công an xã) | - 2/2 đơn vị hành chính - giáo dục dân sự xác nhận: Người gửi có thói quen viết nội dung tự do, mô tả thiếu thông tin khiến người tiếp nhận tốn nhiều thời gian đọc hiểu và phán đoán đầu mối xử lý.<br>- Việc điều phối thủ công qua nhóm chat/sổ tay dễ gây sót việc khẩn (sót đơn 3 ngày) hoặc chuyển nhầm đơn vị liên ngành (mất 2 ngày chuyển lòng vòng). | - 1/3 người (Phó trưởng Công an xã) bác bỏ tính khả thi: Lĩnh vực công an/an ninh có quy trình trực ban theo điều lệnh và nguyên tắc bảo mật thông tin nội bộ nghiêm ngặt, tuyệt đối không đưa dữ liệu nghiệp vụ vào công cụ AI bên thứ ba. |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
-1. **Thu hẹp tệp Actor & Bối cảnh:** Không áp dụng giải pháp cho các nhóm làm việc nhỏ (dưới 20 người); tập trung chính xác vào **đầu mối tiếp nhận tại các tổ chức/doanh nghiệp có hòm thư chung tiếp nhận 30–50 yêu cầu tự do mỗi ngày**.
-2. **Không tự động hóa 100% việc chuyển tiếp (Automate) mà chuyển sang Hỗ trợ gợi ý (Augment):** Phỏng vấn cho thấy có nhiều yêu cầu phức tạp giao thoa giữa các phòng ban; AI không được tự ý forward email đi mà chỉ đóng vai trò phân tích nội dung, trích xuất thông tin còn thiếu và đề xuất phòng ban phù hợp kèm độ tin cậy để con người duyệt trước khi chuyển.
+
+1. **Khoanh vùng ranh giới tổ chức (Boundary):** Loại bỏ hoàn toàn khối lực lượng vũ trang, an ninh trật tự, công an xã ra khỏi đối tượng áp dụng; giải pháp chỉ tập trung vào **các đơn vị hành chính công vụ dân sự và cơ sở giáo dục** nơi có luồng yêu cầu/phản ánh phát sinh hàng ngày từ người dân, giáo viên, phụ huynh.
+2. **Bổ sung tính năng phát hiện thiếu thông tin (Pre-screening):** Qua thực tế tại trường liên cấp và phòng kinh tế xã, vấn đề không chỉ là "chuyển đi đâu" mà là "nội dung gửi đến quá sơ sài". Giải pháp cần thêm bước phân tích xem yêu cầu đã đủ các dữ kiện tối thiểu (đối tượng, cấp học, địa chỉ, sự việc) chưa; nếu thiếu, hệ thống gợi ý câu hỏi để người tiếp nhận bấm gửi yêu cầu người dân/giáo viên bổ sung ngay trước khi chuyển giao.
+3. **Giữ nguyên mức hỗ trợ gợi ý (Augment - Human-in-the-loop):** Với các vụ việc giao thoa giữa nhiều mảng (như kinh tế kết hợp địa chính, hoặc học vụ kết hợp khảo thí), AI chỉ đề xuất phòng ban phù hợp kèm mức độ tin cậy và tóm tắt lý do; cán bộ/hiệu trưởng vẫn là người bấm duyệt chuyển tiếp cuối cùng.
 
 ---
 
@@ -161,27 +163,55 @@ Cách đã dùng: Phỏng vấn sâu cá nhân theo phương pháp The Mom Test 
 
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
+Sơ đồ As-is (ASCII Flowchart):
 
 ```text
+[1. Mở hòm thư / nhận đơn phản ánh tự do từ nhiều kênh] (10 phút)
+       │
+       ▼
+[2. Đọc chi tiết từng văn bản, tự suy đoán nội dung & đơn vị phụ trách] (35 phút) ⚠ BOTTLENECK
+       │
+       ▼
+[3. Gọi điện / nhắn tin hỏi lại do nội dung thiếu thông tin định danh] (20 phút) ⚠ BOTTLENECK
+       │
+       ▼
+[4. Soạn email chuyển tiếp hoặc mang giấy tờ sang phòng ban liên quan] (15 phút)
+       │
+       ▼
+[5. Ghi sổ nhật ký theo dõi hoặc đánh dấu nhãn thủ công] (5 phút)
 
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Cán bộ trực tiếp nhận | Email, đơn thư giấy, tin nhắn từ người dân / phụ huynh / giáo viên | Danh sách 30–40 yêu cầu mới cần xử lý | 10 phút (đầu giờ sáng mỗi ngày làm việc) | Tiếp nhận từ nhiều nguồn rải rác |
+| 2 | Cán bộ trực tiếp nhận | Nội dung văn bản tự do chưa chuẩn hóa | Phán đoán sơ bộ về thẩm quyền phòng ban xử lý | 35 phút (khoảng 1 phút/yêu cầu) | ⚠ BOTTLENECK 1: Mất nhiều thời gian đọc hiểu văn bản lộn xộn |
+| 3 | Cán bộ trực tiếp nhận | Yêu cầu thiếu thông tin (thiếu mã định danh, thiếu địa chỉ, sự việc chung chung) | Thông tin bổ sung sau khi xác minh lại với người gửi | 20 phút (phát sinh ở 25–30% số lượng yêu cầu) | ⚠ BOTTLENECK 2: Chậm trễ do phải trao đổi qua lại nhiều lần |
+| 4 | Cán bộ trực tiếp nhận | Yêu cầu đã xác định được nơi nhận | Email forward hoặc phiếu chuyển giao sang phòng ban phụ trách | 15 phút (trung bình 20–30 giây/thao tác chuyển) | Dễ gõ nhầm địa chỉ hoặc quên đính kèm hồ sơ gốc |
+| 5 | Cán bộ trực tiếp nhận | Danh sách các yêu cầu đã chuyển đi | Sổ tay theo dõi hoặc nhãn Gmail/Outlook được cập nhật | 5 phút | Không đồng bộ trạng thái khi phòng ban xử lý xong |
 
-**Bottleneck chính:**
+**Bottleneck chính:** 
+- **Bước 2 (35 phút):** Đọc hiểu và phân tích các văn bản phi cấu trúc, lộn xộn để xác định đúng thẩm quyền phòng ban.
+- **Bước 3 (20 phút):** Tốn thời gian liên hệ ngược lại để hỏi bổ sung các thông tin tối thiểu do người gửi không điền đủ dữ kiện ngay từ đầu.
+- Tổng thời gian nghẽn: **55 phút/ngày** (chiếm gần 65% tổng thời gian quy trình).
+
+---
 
 ### 4.2. Quy trình tương lai
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
+Sơ đồ To-be (Workflow phân định rõ Rule, AI, Con người):
 
 ```text
+[1. Gom yêu cầu tự do từ các kênh vào hàng đợi tập trung] (1 phút)           ← RULE (Script / Webhook)
+       │
+       ▼
+[2. Phân tích nội dung, kiểm tra trường thiếu & gợi ý phòng ban + độ tin cậy] (1 phút) ← AI (LLM trích xuất ngữ nghĩa)
+       │
+       ▼
+[3. Cán bộ rà soát thẻ đề xuất: bấm Duyệt chuyển hoặc bấm Yêu cầu bổ sung] (12 phút) ← CON NGƯỜI (HITL - Boundary)
+       │
+       ▼
+[4. Tự động chuyển tiếp đến phòng ban được duyệt & cập nhật bảng trạng thái] (1 phút)  ← RULE (Automation Router)
 
 ```
 
@@ -189,11 +219,11 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| **Số bước quy trình** | 5 bước | 4 bước | Tự động hóa khâu gom yêu cầu và khâu chuyển tiếp sau khi duyệt |
+| **Tổng thời gian xử lý** | 85 phút/ngày | 15 phút/ngày | Tiết kiệm 70 phút mỗi ngày cho cán bộ trực tiếp nhận |
+| **Số bước thủ công** | 5/5 bước | 1/4 bước | Con người chỉ tập trung vào duy nhất Bước 3 (kiểm tra và phê duyệt) |
+| **Bottleneck chính** | Đọc hiểu và phán đoán nơi nhận (35') | Cán bộ duyệt thẻ đề xuất (12') | Điểm nghẽn mới là chốt chặn kiểm soát chất lượng cần thiết (HITL) |
+| **Rủi ro mới phát sinh** | Chuyển nhầm do cảm tính, sót việc do quên ghi sổ | Ảo giác AI (phân loại sai ranh giới giao thoa); cán bộ ỷ lại bấm duyệt vội mà không đọc | Khắc phục bằng hiển thị mức độ tin cậy (Confidence) và highlight từ khóa chứng cứ |
 
 ---
 
@@ -201,119 +231,113 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Cán bộ tiếp nhận và điều phối công việc hành chính tại các cơ quan hành chính công vụ dân sự và đơn vị giáo dục (chịu trận trực tiếp xử lý hòm thư chung). |
+| **Quy trình** | Hằng ngày tiếp nhận 30–40 yêu cầu tự do $\rightarrow$ đọc hiểu và suy đoán thẩm quyền $\rightarrow$ liên hệ hỏi lại nếu thiếu dữ kiện $\rightarrow$ chuyển tiếp thủ công đến phòng ban chuyên trách $\rightarrow$ ghi sổ theo dõi. |
+| **Bottleneck** | Mất 35 phút đọc hiểu để phán đoán phòng ban tiếp nhận và 20 phút liên hệ hỏi bổ sung thông tin thiếu; tỷ lệ phân loại sai hoặc chuyển vòng vèo giữa các phòng ban chiếm khoảng 12%. |
+| **Impact** | Tốn 85 phút/ngày cho công tác trung gian; trung bình mỗi tuần có 3–4 việc khẩn bị xử lý trễ quá 4 tiếng do chuyển lòng vòng; gây ách tắc tiến độ giải quyết công việc chung của đơn vị. |
+| **Success Metric** (baseline $\rightarrow$ target, cách đo) | - **Thời gian điều phối trung gian:** Từ 85 phút/ngày giảm xuống dưới 20 phút/ngày (đo bằng log thời gian cán bộ thao tác trên hệ thống hàng ngày).<br>- **Tỷ lệ chuyển đúng phòng ban ngay lần đầu:** Từ 88% tăng lên trên 98% (công thức: $1 - \frac{\text{Số yêu cầu bị phòng ban trả lại}}{\text{Tổng yêu cầu tiếp nhận}} \times 100\%$, đo liên tục trong 4 tuần pilot).<br>- **Tỷ lệ yêu cầu sót thông tin bị chuyển giao:** Giảm từ 25% xuống dưới 3% nhờ khâu phát hiện thiếu dữ liệu ngay tại cổng vào. |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | - AI **tuyệt đối không được tự động phát lệnh chuyển tiếp** hoặc gửi email ra bên ngoài mà không có con người bấm duyệt.<br>- AI **không được tự ý bác bỏ/từ chối** yêu cầu của người gửi.<br>- AI **không áp dụng cho các dữ liệu thuộc khối an ninh, quốc phòng, điều tra** (tuân thủ kết quả kiểm chứng CP4).<br>- **Bắt buộc Human-in-the-loop (HITL):** Cán bộ trực tiếp nhận phải rà soát và bấm nút xác nhận đối với mọi đề xuất phân luồng trước khi thông tin được gửi đi. |
 
-Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
+**Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:**
 
--
+- **Phản biện nhận được:** *"Nếu người gửi cố tình viết một bức thư rất dài nhưng thực chất khiếu nại 3 vấn đề thuộc 3 phòng ban khác nhau thì hệ thống gợi ý 1 phòng ban duy nhất sẽ làm sót việc của các phòng ban còn lại; đồng thời metric đo thời gian nếu chỉ tính thời gian chạy của máy thì không phản ánh đúng thời gian con người phải ngồi đọc lại."*
+- **Nhóm có đồng ý không:** **Đồng ý hoàn toàn.** Nhóm bổ sung giải pháp cho phép AI trích xuất đa nhãn (multi-label) để chia tách thành các sub-task riêng biệt nếu phát hiện nhiều nội dung độc lập; đồng thời metric thời gian được xác định rõ là bao gồm cả thời gian con người ngồi rà soát và bấm nút duyệt (12 phút) chứ không chỉ tính thời gian xử lý của mô hình.
 
 ---
 
-## 6. Mức can thiệp AI (CP6)
+## 6. Mức độ can thiệp của AI (CP6)
 
-### 6.1. Ma trận độ mơ hồ × độ phức tạp
+### 6.1. So sánh 4 mức độ can thiệp
 
-Bài của nhóm nằm ở ô:
-
-Vì sao:
-
-### 6.2. So sánh 4 mức
-
-| Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
+| Mức độ | Cơ chế vận hành | Ưu điểm | Rủi ro / Nhược điểm | Đánh giá lựa chọn |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **Mức 0: No AI / Rule-based** | Bắt buộc người gửi điền biểu mẫu (form) cứng với các trường cố định; dùng bộ lọc từ khóa tĩnh (Regex/If-Else) để phân loại. | Chi phí phát triển = 0; không có ảo giác (hallucination); tốc độ xử lý tức thì. | Người dân/giáo viên ngại điền form dài, tiếp tục lách luật gửi văn bản tự do qua Zalo/Email cá nhân; không xử lý được ngôn ngữ tự nhiên. | ❌ **Loại**: Thất bại ngay từ khâu tiếp nhận (không giải quyết được hành vi thực tế của người dùng). |
+| **Mức 1: AI Feature (Hỗ trợ cục bộ)** | Cán bộ văn thư mở email/đơn thư, bấm nút "Hỏi AI" để AI tóm tắt nội dung ngay trong khung xem trước; cán bộ vẫn tự chọn phòng ban thủ công. | Dễ tích hợp (dưới dạng extension/plugin); cán bộ nắm quyền kiểm soát hoàn toàn từng bước. | Không giải quyết được khâu gom dữ liệu đa kênh; cán bộ vẫn phải thao tác thủ công chuyển tiếp và ghi sổ theo dõi từng việc. | ❌ **Loại**: Chỉ giảm nhẹ thao tác đọc, không tối ưu hóa được toàn bộ luồng điều phối (thời gian giảm không đáng kể). |
+| **Mức 2: AI Workflow (Bán tự động + HITL)** | Rule tự động gom yêu cầu đa kênh; LLM phân tích ngữ nghĩa, kiểm tra trường thiếu và đề xuất phòng ban kèm độ tin cậy; cán bộ chỉ bấm Duyệt/Hỏi lại; Rule tự động định tuyến. | Giải quyết trọn vẹn điểm nghẽn đọc hiểu và chuyển tiếp; kiểm soát 100% rủi ro nhờ chốt chặn con người (HITL); người gửi giữ nguyên thói quen nhắn tin tự do. | Phụ thuộc vào chất lượng mô hình prompt; cán bộ có nguy cơ ỷ lại nếu không có cơ chế highlight bằng chứng trực quan. | ✅ **CHỌN**: Cân bằng tối ưu giữa hiệu quả tự động hóa và an toàn nghiệp vụ công vụ. |
+| **Mức 3: Autonomous Agent (Tự động hoàn toàn)** | AI tự nhận tin nhắn, tự động quyết định chuyển thẳng vào hòm thư phòng ban hoặc tự động soạn thư trả lời/từ chối người dân mà không cần người duyệt. | Tối đa hóa tốc độ xử lý (thời gian phản hồi < 5 giây); không tốn nhân lực trực tiếp nhận. | Nguy cơ ảo giác nghiêm trọng; vi phạm nguyên tắc phát ngôn hành chính nhà nước; gây hậu quả pháp lý nếu phân loại nhầm việc khẩn/khiếu nại. | ❌ **Loại (Vi phạm Boundary)**: Tuyệt đối không giao quyền tự quyết định gửi/từ chối văn bản cho AI. |
 
-**Mức chọn:**
+---
 
-**Vì sao không chọn mức đơn giản hơn:**
+### 6.2. Lý do chốt chọn Mức 2 (AI Workflow - Human-in-the-Loop)
 
-### 6.3. AI Canvas rút gọn
+1. **Phù hợp với đặc thù hành chính & giáo dục:** Trong khu vực công và trường học, trách nhiệm giải trình (accountability) là yếu tố sống còn. AI đóng vai trò "trợ lý bóc tách và phân loại", còn con người giữ vai trò "người chịu trách nhiệm phê duyệt".
+2. **Giải quyết đúng điểm nghẽn cốt lõi (55 phút đọc hiểu & hỏi lại):** AI giải phóng cán bộ khỏi công việc thủ công bằng cách tóm tắt sự việc trong 2 dòng, tự động phát hiện trường thông tin thiếu và đề xuất sẵn phòng ban kèm mức độ tin cậy (Confidence Score).
+3. **Tính khả thi kỹ thuật cao:** Không đòi hỏi huấn luyện lại mô hình nền (foundation model) phức tạp; chỉ cần kết hợp Webhook gom tin, mô hình LLM trích xuất cấu trúc (Structured Output/JSON) và giao diện duyệt thẻ 1-chạm.
 
-| Thành phần | Nội dung |
+---
+
+## 7. Problem Statement v1 (CP6)
+
+| Trường | Nội dung hoàn thiện |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
-
-### 6.4. Hai câu hỏi của Google PAIR
-
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+| **Actor** | Cán bộ văn thư / tiếp nhận và điều phối công việc hành chính tại các cơ quan hành chính công vụ dân sự cấp xã/phường và đơn vị giáo dục (trường liên cấp). |
+| **Quy trình** | Tiếp nhận 30–40 yêu cầu/ngày từ Zalo OA, Mail công vụ -> Hệ thống gom về hàng đợi tập trung -> AI phân tích ngữ nghĩa, trích xuất tóm tắt, kiểm tra trường thiếu và đề xuất phòng ban -> Cán bộ duyệt 1-chạm (Duyệt chuyển hoặc Yêu cầu bổ sung) -> Hệ thống tự động chuyển tiếp và cập nhật bảng trạng thái. |
+| **Bottleneck** | Khâu đọc hiểu văn bản tự do lộn xộn (35 phút) và liên hệ hỏi lại dữ kiện thiếu (20 phút). Điểm nghẽn mới sau can thiệp: Thời gian cán bộ rà soát và bấm duyệt thẻ đề xuất (12 phút/ngày). |
+| **Impact** | Cắt giảm 70 phút lãng phí mỗi ngày cho cán bộ trực tiếp nhận (từ 85 phút xuống dưới 15–20 phút); xóa bỏ hoàn toàn tình trạng trôi sót việc khẩn (giảm từ 3–4 việc trễ/tuần xuống 0). |
+| **Success Metric** | - **Thời gian điều phối trung gian:** Giảm từ 85 phút/ngày $\rightarrow$ dưới 20 phút/ngày (đo bằng log hệ thống).<br>- **Độ chính xác chuyển đúng nơi ngay lần đầu:** Tăng từ 88% $\rightarrow$ trên 98% (công thức: `1 - [Số yêu cầu bị trả lại / Tổng yêu cầu tiếp nhận] * 100`).<br>- **Tỷ lệ văn bản thiếu dữ kiện lọt vào phòng ban:** Giảm từ 25% $\rightarrow$ dưới 3%.<br>- **Tỷ lệ cán bộ chấp nhận gợi ý của AI (Acceptance Rate):** Đạt trên 85% trong quá trình vận hành pilot. |
+| **Boundary & Fallback** | - **Boundary:** AI không tự gửi văn bản ra ngoài; không tự ý từ chối yêu cầu; không xử lý dữ liệu mật/an ninh điều tra; bắt buộc có tài khoản cán bộ bấm duyệt.<br>- **Fallback:** Khi mất kết nối API hoặc điểm tin cậy $< 65\%$, hệ thống tự động giữ nguyên trạng thái chờ duyệt thủ công để cán bộ phân loại bằng tay như quy trình cũ. |
 
 ---
 
-## 7. Problem Statement v1 + tiêu chí đánh giá (CP6)
+## 8. Quyết định Go / No-Go & Kế hoạch thử nghiệm (CP6)
 
-| Trường | Nội dung |
-|---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+### 8.1. Ma trận đánh giá tính khả thi
 
-**Thay đổi so với v0 và lý do:**
+| Trụ cột đánh giá | Trạng thái | Căn cứ đánh giá |
+|---|:---:|---|
+| **Desirability (Nhu cầu thực tế)** | **PASS** | Phỏng vấn Mom Test xác nhận 2/2 cán bộ dân sự và trường học đều đang chịu áp lực lớn từ hòm thư lộn xộn và rất cần công cụ giảm tải đọc hiểu. |
+| **Feasibility (Tính khả thi kỹ thuật)** | **PASS** | Tận dụng LLM hiện có qua API để trích xuất JSON cấu trúc; tích hợp webhook Zalo/Gmail là công nghệ chuẩn hóa, không có rủi ro nghiên cứu thuật toán. |
+| **Viability (Hiệu quả chi phí)** | **PASS** | Chi phí token API ước tính cho 30–40 yêu cầu/ngày chỉ khoảng $0.05–$0.10/ngày; tiết kiệm hơn 30 giờ công lao động mỗi tháng cho một cán bộ. |
+| **Safety & Compliance (An toàn & Ranh giới)** | **PASS** | Đã loại trừ khối an ninh/công an; quy trình có HITL chốt chặn tuyệt đối, đảm bảo dữ liệu không bị tự động phát tán sai lệch ra bên ngoài. |
 
-| Trường | v0 | v1 | Vì sao đổi |
-|---|---|---|---|
-| | | | |
-
-**Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
-
-| # | Tiêu chí | Đạt khi | Không đạt khi |
-|---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+**QUYẾT ĐỊNH CHUNG CUỘC: GO (ở mức AI Workflow có HITL)**
 
 ---
 
-## 8. Quyết định (CP6)
+### 8.2. Kế hoạch thử nghiệm nhỏ nhất (MVP / Pilot Plan)
 
-### 8.1. Bốn rủi ro
-
-| Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
-|---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
-
-### 8.2. Kết luận
-
-**Quyết định:** Go / Not Yet / No-Go
-
-**Lý do:**
-
-**Nếu Go — pilot nhỏ nhất:**
-
-**Nếu Not Yet — cần kiểm chứng gì trước:**
-
-**Nếu No-Go — nên làm gì thay AI:**
-
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
-
+* **Phạm vi thử nghiệm:** 01 đơn vị (Văn phòng Trường liên cấp hoặc Bộ phận tiếp nhận Một cửa cấp xã).
+* **Quy mô mẫu:** Thử nghiệm trên **100 yêu cầu/đơn thư thực tế** trong vòng **02 tuần liên tục**.
+* **Các chỉ tiêu theo dõi (Pilot Metrics):**
+  1. Độ chính xác gợi ý phòng ban của AI (so sánh giữa gợi ý của AI và quyết định cuối cùng của cán bộ).
+  2. Thời gian trung bình cán bộ thao tác trên mỗi thẻ đề xuất.
+  3. Số trường hợp AI phát hiện chính xác thông tin bị thiếu.
+* **Ngưỡng dừng an toàn (Stopping Threshold):**
+  * Nếu sau 100 yêu cầu đầu tiên, **độ chính xác gợi ý của AI đạt dưới 75%** hoặc thời gian cán bộ phải sửa lại đề xuất lâu hơn quy trình đọc thủ công cũ $\rightarrow$ **DỪNG DỰ ÁN NGAY LẬP TỨC**, hủy bỏ can thiệp AI và chuyển về giải pháp tối ưu hóa biểu mẫu cứng (No AI / Rule).
 ---
 
-## 9. Hạn chế và hướng tiếp theo
+## 9. Đóng góp thành viên & Ma trận rủi ro
 
--
+### 9.1. Bảng phân công và đóng góp thành viên
 
-## 10. Tài liệu tham khảo
+| Thành viên | Vai trò | Hạng mục phụ trách chính | Tỷ lệ đóng góp |
+|---|---|---|:---:|
+| **Nguyễn Tấn Dũng** | Lead Product / Problem Framing | - Khởi xướng bài toán điều phối hòm thư chung (Problem Card #3).<br>- Thực hiện phỏng vấn The Mom Test với Phó trưởng Công an xã và Cán bộ kinh tế xã.<br>- Xây dựng luồng As-is và bóc tách các điểm nghẽn (bottlenecks) về thời gian.<br>- Tổng hợp báo cáo nhóm từ CP3 đến CP6. | 50% |
+| **Lê Huy Anh** | Tech Lead / Solution Architect | - Đóng góp bài toán đối chiếu luồng văn bản liên phòng ban (Problem Card #4 & #5).<br>- Phỏng vấn The Mom Test với Hiệu trưởng trường liên cấp.<br>- Thiết kế kiến trúc To-be phân tầng (Rule - AI - Con người) và cơ chế Fallback.<br>- Xây dựng Success Metrics, bộ prompt mẫu cho bài thuyết trình và slide pitch. | 50% |
 
--
+### 9.2. Ma trận rủi ro & Phương án giảm thiểu (Risk Register)
+
+| Rủi ro tiềm ẩn | Mức độ | Hậu quả | Phương án kiểm soát & Giảm thiểu |
+|---|:---:|---|---|
+| **Ảo giác AI (Hallucination)** phân loại nhầm phòng ban chuyên trách | Trung bình | Yêu cầu bị chuyển sai đơn vị, gây trễ hạn xử lý việc khẩn | Bắt buộc cơ chế **Human-in-the-Loop (HITL)**: Cán bộ trực phải bấm duyệt; hiển thị điểm tin cậy (% Confidence) và highlight từ khóa ngữ cảnh để cán bộ thẩm định nhanh. |
+| **Lệch ranh giới bảo mật (Compliance Breach)** | Cao | Đưa nhầm dữ liệu an ninh, quốc phòng hoặc thông tin mật lên hệ thống AI | Thiết lập bộ lọc từ khóa cấm ngay tại tầng Rule tiếp nhận; loại trừ hoàn toàn các đơn vị vũ trang/an ninh ra khỏi đối tượng triển khai (bài học Mom Test CP4). |
+| **Cán bộ ỷ lại (Automation Bias)**, duyệt vội không đọc lại | Trung bình | Lọt yêu cầu sai hoặc sót nội dung nghiêm trọng | Thiết kế UX giao diện dạng thẻ tóm tắt 2 dòng kèm cờ cảnh báo (flag) với các đơn có điểm tin cậy $< 80\%$. |
+| **Sự cố kỹ thuật (Mất mạng, sập API)** | Thấp | Tắc nghẽn luồng tiếp nhận công việc | Kích hoạt kịch bản **Fallback**: tự động chuyển về hàng đợi thủ công truyền thống để cán bộ phân loại bằng tay như quy trình cũ. |
+
+## 10. Tài liệu tham khảo (References)
+
+Dưới đây là các tài liệu nền tảng, căn cứ pháp lý và tài liệu kỹ thuật chính thức được nhóm trích dẫn và áp dụng xuyên suốt từ CP3 đến CP6:
+
+### Phương pháp luận phát triển sản phẩm & Khám phá khách hàng
+1. **The Mom Test (Phương pháp phỏng vấn không mớm giải pháp):**
+   * Tác giả: Rob Fitzpatrick.
+   * Tham khảo nguyên tắc phỏng vấn hành vi quá khứ và cách nhận diện tín hiệu phản bác: [The Mom Test Official Site](https://momtestbook.com/) | [Simon & Schuster Publisher Page](https://www.simonandschuster.co.uk/books/The-Mom-Test/Rob-Fitzpatrick/9798893312560)
+2. **Lean UX (Định dạng Problem Statement, Giả định & Success Metrics):**
+   * Tác giả: Jeff Gothelf & Josh Seiden.
+   * Cấu trúc Problem Statement 6 trường và đo lường giả thuyết: [Lean UX Official Resource & Canvas](https://leanuxbook.com/)
+
+### Thiết kế tương tác AI & Cơ chế Human-in-the-Loop (HITL)
+3. **People + AI Guidebook (Google PAIR):**
+   * Nguồn tài liệu thực hành thiết kế sản phẩm AI lấy con người làm trung tâm, hướng dẫn lựa chọn mức độ tự trị (User Autonomy), cơ chế con người kiểm soát (Human-in-the-loop) và hiển thị độ tin cậy (Confidence & Explanations): [Google People + AI Guidebook](https://pair.withgoogle.com/guidebook/)
+4. **Guidelines for Human-AI Interaction (Microsoft Research):**
+   * Bộ 18 nguyên tắc vàng khi thiết kế ứng dụng AI hỗ trợ quy trình làm việc và xử lý khi AI mắc lỗi: [Microsoft Human-AI Interaction Guidelines](https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/)
