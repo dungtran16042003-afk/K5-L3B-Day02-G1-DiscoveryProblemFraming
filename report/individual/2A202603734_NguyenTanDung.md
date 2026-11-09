@@ -155,47 +155,45 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
-
+| Pitch Problem Card | Pitch 3 card cá nhân, tâm đắc nhất là Card #3: xử lý hòm thư chung 40–50 mail/ngày, mất 60 phút ngồi đọc và chuyển tay. | Nhóm chọn Card #3 của tôi ghép với Card #6 của Huy Anh làm bài toán chung để đi tiếp. |
+| Phản biện bài của bạn khác | Bắt bẻ bài của Huy Anh:<br>- Bài công văn: "Đã có mẫu sẵn sao không dùng mail merge cho nhanh?"<br>- Bài dự án đầu tư: "Đưa dữ liệu quy hoạch lên AI có sợ lộ tin mật không?"<br>- Bài liên phòng: "Ít việc phát sinh thế thì đầu tư AI làm gì cho tốn tiền?" | Huy Anh thấy bài thẩm định dự án vừa nặng vừa nhạy cảm nên đồng ý bỏ, dồn sức làm bài điều phối. |
+| Nhận phản biện | Huy Anh hỏi tôi: "Nếu bắt mọi người điền Google Form rồi cài Rule tự chuyển thì cần quái gì AI?" | Tôi thấy đúng; giữ luôn phương án Form + Rule làm bản No AI để đối chứng, rồi mang câu hỏi "người ta có chịu điền form không" đi phỏng vấn người thật. |
+| Gom cluster / cây OST | Đề xuất gom cụm điều phối yêu cầu; cùng chọn Outcome và bóc 2 nỗi đau chính: phải đọc văn bản tự do và đơn gửi đến hay bị thiếu thông tin. | Cây OST gọn gàng, tập trung đúng nỗi đau của người dùng chứ không bị nhét mấy giải pháp công nghệ vào. |
+| Chọn candidate problem | Cùng chấm 7 tiêu chí (chọn bài điều phối được 32/35 điểm); viết lý do chọn và giải thích vụ lệch số liệu giữa 2 đứa (40–50 mail vs 5–10 phiếu). | Thống nhất được bài toán của cả nhóm, chốt đi phỏng vấn thực tế ở CP4 để lấy lại một số liệu chuẩn duy nhất. |
+| Kiểm chứng / research | Lập bảng giả định; trực tiếp đi phỏng vấn Mom Test 2 người: 1 cán bộ kinh tế xã và 1 phó công an xã. | Bắt được thực tế đơn thư xã gửi lộn xộn làm chuyển vòng vèo mất 2 ngày; chú công an gạt luôn AI vì sợ lộ nghiệp vụ, giúp nhóm chốt ranh giới cấm đụng vào khối an ninh. |
+| Quy trình nhóm | Vẽ sơ đồ As-is 5 bước; chỉ ra 2 chỗ nghẽn nặng nhất: 35 phút đọc hiểu + 20 phút gọi hỏi lại thông tin thiếu (tổng nghẽn 55 phút trên 85 phút). | Có số liệu đo đếm thực tế để nhóm so sánh trước/sau can thiệp và tính thời gian tiết kiệm được. |
+| Problem Statement | Viết nháp bản v0 đủ 6 mục; xử lý góp ý vụ đơn thư chứa nhiều việc cùng lúc bằng cách bổ sung cơ chế bóc tách đa nhãn (multi-label). | Bài toán có ranh giới và số liệu đo đếm rõ ràng; tính cả 12 phút cán bộ ngồi duyệt vào metric thời gian chứ không để số ảo. |
+| Mức can thiệp AI | Phân tích lý do không được chọn mức Agent tự động 100% vì rủi ro pháp lý và bài học bảo mật từ chú công an; hoàn thiện bản v1. | Khóa chặt ranh giới: AI chỉ gợi ý ở hậu trường, bắt buộc cán bộ phải bấm duyệt mới được chuyển tiếp đi. |
+| Quyết định | Đánh giá 4 mặt (nhu cầu, kỹ thuật, chi phí, an toàn); cùng chốt Go ở mức Workflow có người duyệt (HITL) và đặt mốc dừng nếu AI gợi ý đúng dưới 75%. | Nhóm chốt Go tự tin vì có số liệu thực tế và mốc dừng an toàn, không bị ảo tưởng về sức mạnh của AI. |
 ---
 
 ## 5. Dùng AI
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
-
+| **CP1 Scan** | Nhờ brainstorm thêm vài ý tưởng công việc văn phòng bị lặp lại. | Gợi ý ra bài toán gom nhóm yêu cầu hỗ trợ qua hòm thư chung. | Toàn đề xuất mấy bài tuyển dụng HR rất xa vời, sinh viên không có data thật để thử. | Bỏ hết mấy ý HR viển vông, giữ lại bài hòm thư hỗ trợ vì bám sát thực tế hơn. |
+| **CP2 Problem Card** | Đóng vai PM khó tính để bắt bẻ 3 cái thẻ bài toán. | Chỉ ra lỗi viết bottleneck chung chung, chưa có số phút cụ thể. | Tính thiếu thời gian con người vẫn phải ngồi soi lại bằng mắt sau khi máy chạy xong. | Tự điền số phút cho từng bước nghẽn và cộng thêm thời gian đối chiếu thủ công vào metric. |
+| **CP4 Research** | Tra nhanh tính năng của Zendesk và n8n xem họ xử lý email kiểu gì. | Tóm tắt nhanh cách các công cụ bóc tách ý định (intent) từ văn bản. | Mặc định khuyên tự động hóa 100%, bỏ qua rủi ro bảo mật ở cơ quan nhà nước. | Sau khi phỏng vấn bên công an, tôi gạt luôn khối an ninh và cấm AI tự động gửi thư ra ngoài. |
+| **CP5 Quy trình** | Nhờ dựng khung sơ đồ As-is sang dạng chữ (ASCII) và gợi ý luồng To-be. | Gợi ý cách gom các kênh về một hàng đợi tập trung khá gọn gàng. | Kêu quy trình mới chỉ tốn 1–2 phút vì nó chỉ tính thời gian máy chạy, quên mất người phải đọc duyệt. | Chèn bước cán bộ ngồi duyệt mất 12 phút vào quy trình mới để số liệu không bị ảo. |
+| **CP5–6 Problem Statement** | Rà lại câu chữ và tính logic giữa 6 trường xem đã khớp chưa. | Soát nhanh lỗi câu cú và cách diễn đạt giữa các phần. | Chỉ nghĩ đến việc phân loại 1 nhãn; lỡ một thư hỏi việc của 2–3 phòng ban là bỏ sót. | Tự bổ sung cơ chế tách việc đa nhãn (multi-label) và viết công thức đo độ chính xác rõ ràng. |
+| **CP6 Mức can thiệp / quyết định** | So sánh ưu nhược điểm 4 mức can thiệp để chốt phương án. | Liệt kê rõ sự khác nhau về chi phí API và cách triển khai giữa Rule và LLM. | Xúi làm Agent tự động hoàn toàn cho "ngầu", xem nhẹ nguy cơ AI nói hớ hoặc trả lời bậy. | Chốt làm mức Workflow có người duyệt ở giữa cho an toàn, đặt luôn ngưỡng dừng 75% nếu AI gợi ý sai nhiều. |
 ---
 
 ## 6. Reflection (CP7)
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?** Em nghe các top problems của các bạn thì thấy các bạn vẫn đang chưa chọn kĩ các vấn đề của mình, nên bị phản biện và không trả lời hoặc trả lời ngang.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?** Thật sự chúng em chưa có kinh nghiệm nhiều nên điều này là thường xuyên xảy ra, nhưng mong muốn khi trải qua khoá học thì chúng em sẽ kinh nghiệm đầy mình. Chúng em chưa nhận ra khi được các coachlab nhắc và đã xử lý bằng cách làm lại từ đầu hoặc chọn hướng mới.
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.** Em không đổi ý khi bị phản biện, phải bảo vệ quan điểm của mình vì không có gì là đúng hẳn và sai hẳn. Ví dụ như trên lớp được hỏi về việc nếu các bạn xử dụng một app nhưng trên thị trường nhiều app đó làm được tốt hơn thì em cần người hỏi chứng minh nó tốt hơn app của em chứ không phải em phải chứng minh điều đó.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?** Kết quả khi chạy test luôn làm em bất ngờ, nhất là khi traning model xong.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+**6.5. Điều khó nhất khi viết Problem Statement là gì?** Đó là nghĩ ra các ý tưởng mà theo mọi người là một suy nghĩ bình thường và dễ hiểu, điều đó khá khó khăn
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?** Nếu làm lại tôi sẽ tìm ra những điều ngách hơn ở vấn đề hay đề tài của nhóm để phản biện.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
