@@ -18,36 +18,30 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Dũng | Khi cuộc họp giao ban nội bộ kéo dài 60–90 phút kết thúc, tôi muốn có ngay danh sách Action Items phân công rõ người phụ trách kèm hạn chót, để các bên thực hiện đúng tiến độ mà không phải hỏi lại hay nghe lại ghi âm. | Người ghi biên bản họp, 6 thành viên trong nhóm dự án | Bước tua lại ghi âm (35') và bước tổng hợp bảng Action Items (20') — Tổng nghẽn 55' | "Nếu người họp nói chen lấn, chất lượng ghi âm kém hoặc chỉ có bản gõ nháp vội thì hệ thống có gán sai đầu việc cho người khác không?" (Huy Anh hỏi) |
+| 2 | Dũng | Khi kết thúc đợt công tác với 15–20 hóa đơn lẻ và vé tàu xe, tôi muốn điền chính xác thông tin ngày, MST và số tiền vào bảng kê, để kế toán thanh toán đúng hạn quy định. | Nhân viên đi công tác, 1 kế toán thanh toán | Gõ tay 7 trường thông tin từ 15–20 hóa đơn (65') và bấm máy tính cộng dồn đối chiếu chéo (25') — Tổng nghẽn 90' | "Các quán ăn nhỏ dùng hóa đơn giấy viết tay hoặc hóa đơn in nhiệt mờ mực thì xử lý thế nào để không phải ngồi sửa lại bằng tay?" (Huy Anh hỏi) |
+| 3 | Dũng | Khi tiếp nhận 40–50 email hỗ trợ nội bộ mỗi ngày, tôi muốn gom nhóm về đúng phòng ban chuyên trách, để chuyển tiếp kịp thời mà không bị trôi việc khẩn cấp. | Nhân viên trực hòm thư nội bộ, các phòng ban (IT, HR, Kế toán) | Đọc chi tiết nội dung email (35') và thao tác chuyển tiếp thủ công (25') — Tổng nghẽn 60' | "Nếu dùng Google Forms bắt buộc người gửi chọn danh mục phòng ban và cài Rule chuyển tiếp tự động thì đã giải quyết được chưa mà cần đến AI?" (Huy Anh hỏi) |
+| 4 | Huy Anh | Khi chuẩn bị trước mỗi buổi thuyết trình môn học, tôi muốn kiểm tra và định dạng slide theo đúng mẫu chuẩn của trường, để bài báo cáo không bị trừ điểm hình thức. | Sinh viên báo cáo đồ án / tiểu luận | Ngồi chỉnh sửa thủ công kích thước chữ, khoảng cách lề và căn lề từng slide (mất 45') | "Quy chuẩn slide đã có template mẫu sẵn trên Canva/PowerPoint, tại sao không áp dụng master slide từ đầu?" (Dũng hỏi) |
+| 5 | Huy Anh | Khi làm bài tập lớn lập trình nhóm, tôi muốn rà soát nhanh các lỗi cú pháp và chuẩn đặt tên biến trước khi gộp code, để nhánh chính không bị lỗi build. | Sinh viên IT, thành viên nhóm làm đồ án | Đọc dò từng pull request và kiểm tra đối chiếu quy ước đặt tên (mất 30'/lần) | "Các công cụ linter (ESLint, Flake8) và GitHub Actions có sẵn đã chặn được các lỗi này ở mức Rule chưa?" (Dũng hỏi) |
+| 6 | Huy Anh | Khi tìm kiếm tài liệu học tập trong kho lưu trữ chung của môn học, tôi muốn tìm đúng đoạn lý thuyết cần đọc, để ôn thi kịp thời mà không phải mở từng file PDF 50 trang. | Sinh viên ôn thi cuối kỳ | Mở từng file tài liệu và nhấn `Ctrl + F` tìm từ khóa (mất 40'/chương) | "Tài liệu môn học có bản quyền hoặc dạng ảnh scan thì việc trích xuất có đảm bảo đủ ngữ cảnh chính xác không?" (Dũng hỏi) |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| **A — Bóc tách & Chuẩn hóa thông tin sau trao đổi** | Candidate #1 (Action Items sau họp), Candidate #4 (Định dạng slide thuyết trình) | Chuyển đổi dữ liệu thô, lộn xộn sau quá trình thảo luận/soạn thảo thành văn bản có cấu trúc chuẩn để bàn giao. |
+| **B — Rà soát & Phân loại dữ liệu tác vụ** | Candidate #3 (Phân loại email hỗ trợ), Candidate #5 (Rà soát pull request code) | Đọc hiểu nội dung đầu vào tự do và đối chiếu với danh mục/quy chuẩn định sẵn để điều hướng hoặc gắn nhãn. |
+| **C — Trích xuất & Nhập liệu chứng từ / tài liệu** | Candidate #2 (Nhập hóa đơn hoàn ứng), Candidate #6 (Tìm tài liệu ôn tập PDF) | Đọc các tài liệu văn bản/ảnh dài, bóc tách các trường dữ liệu quan trọng để đưa vào nơi lưu trữ phục vụ tra cứu. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian hoàn thành biên bản sau cuộc họp từ 70 phút xuống dưới 15 phút mà không sót đầu việc
+├── Opportunity 1 (Pain): Mất 35 phút tua đi tua lại băng ghi âm chỉ để xác nhận ai nhận việc gì và hạn chót khi nào
+├── Opportunity 2 (Pain): Mất 20 phút ngồi gõ và định dạng lại bảng Action Items từ các đoạn ghi chú thô rời rạc
+└── Opportunity 3 (Pain): Các bên hiểu nhầm thỏa thuận miệng trong buổi họp dẫn đến trễ hạn triển khai công việc
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
