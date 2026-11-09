@@ -199,8 +199,14 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
----
+-Bài toán giải quyết điểm nghẽn 55 phút mỗi ngày của cán bộ tiếp nhận khi phải đọc hiểu đơn thư tự do và gọi điện hỏi lại thông tin thiếu. Quy trình mới dùng Rule gom yêu cầu đa kênh về một mối, AI tóm tắt và gợi ý phòng ban, còn cán bộ chỉ việc rà soát và bấm duyệt. Mục tiêu cốt lõi là giảm thời gian điều phối từ 85 phút xuống dưới 20 phút/ngày và nâng tỷ lệ chuyển đúng nơi lên trên 98%. Ranh giới danh thép là AI không được tự gửi thư ra ngoài, không tự từ chối đơn và cấm áp dụng cho khối an ninh quốc phòng. Do đó, nhóm chọn mức can thiệp AI Workflow có con người kiểm soát (HITL) thay vì Agent tự động để đảm bảo trách nhiệm công vụ. Quyết định chung cuộc là Go, thử nghiệm pilot trên 100 yêu cầu thực tế kèm ngưỡng dừng an toàn 75% độ chính xác.
 
 ## 7. Tài liệu tham khảo
 
--
+1. **The Mom Test (Phương pháp phỏng vấn không mớm giải pháp):**
+   * Tác giả: Rob Fitzpatrick.
+   * Tham khảo nguyên tắc phỏng vấn hành vi quá khứ và cách nhận diện tín hiệu phản bác: [The Mom Test Official Site](https://momtestbook.com/) | [Simon & Schuster Publisher Page](https://www.simonandschuster.co.uk/books/The-Mom-Test/Rob-Fitzpatrick/9798893312560)
+2. **Lean UX (Định dạng Problem Statement, Giả định & Success Metrics):**
+   * Tác giả: Jeff Gothelf & Josh Seiden.
+   * Cấu trúc Problem Statement 6 trường và đo lường giả thuyết: [Lean UX Official Resource & Canvas](https://leanuxbook.com/)
+
