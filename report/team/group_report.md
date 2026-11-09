@@ -1,69 +1,85 @@
 # Báo cáo nhóm — Day 02 Discovery & Problem Framing
 
-> Bản chung của nhóm, viết trên repo do nhóm trưởng fork. Không copy file này sang repo cá nhân.
-> Template chi tiết và prompt mẫu: [docs/01-worksheet.md](../../docs/01-worksheet.md). Bài mẫu: [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md).
-
 ## 1. Thông tin nhóm
 
-- Tên nhóm:G1
+- Tên nhóm: G1
 - Thành viên: Nguyễn Tấn Dũng, Lê Huy Anh
-- Candidate problem được chọn (1 câu):
-- Quyết định cuối: Go / Not Yet / No-Go
-
+- Candidate problem được chọn (1 câu): Điều phối yêu cầu nội bộ: tiếp nhận yêu cầu, kiểm tra tính đầy đủ thông tin, xác định đúng bộ phận phụ trách và theo dõi trạng thái xử lý để tránh thất lạc việc khẩn.
+- Quyết định cuối: Go / Not Yet / No-Go 
 ---
 
 ## 2. Hội tụ nhóm (CP3)
 
 ### 2.1. Pitch
 
-| # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
+Tổng hợp từ 3 Problem Cards cá nhân của Nguyễn Tấn Dũng và 3 Problem Cards cá nhân của Lê Huy Anh. Các số liệu dưới đây là baseline/ước lượng ban đầu, sẽ được kiểm chứng lại tại CP4.
+
+| # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck / dấu hiệu pain | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | Dũng | Khi cuộc họp giao ban nội bộ kéo dài 60–90 phút kết thúc, tôi muốn có ngay danh sách Action Items phân công rõ người phụ trách kèm thời hạn, để triển khai việc ngay mà không phải tua lại ghi âm. | Người ghi biên bản họp, 6 thành viên nhóm dự án | Bước 3 (tua lại file ghi âm: 35') và Bước 4 (tổng hợp gõ bảng Action Items: 20') — Tổng nghẽn 55' | "Nếu file âm thanh bị ồn hoặc người họp nói chen ngang, hệ thống có nguy cơ gán nhầm việc của người này sang người khác không?" (Huy Anh hỏi) |
-| 2 | Dũng | Khi hoàn tất chuyến công tác với 15–20 hóa đơn lẻ và vé xe, tôi muốn chuyển đổi chính xác thông tin ngày, MST và số tiền vào bảng kê, để kế toán thanh toán đúng hạn quy định. | Nhân viên đi công tác, 1 kế toán thanh toán | Bước 3 (gõ tay 7 trường thông tin: 65') và Bước 4 (bấm máy tính cộng dồn đối chiếu chéo: 25') — Tổng nghẽn 90' | "Các hóa đơn in nhiệt từ quán ăn nhỏ rất hay bị mờ mực hoặc rách mép, OCR đọc sai số tiền thì người dùng vẫn phải ngồi dò lại từng dòng à?" (Huy Anh hỏi) |
-| 3 | Dũng | Khi tiếp nhận 40–50 email yêu cầu hỗ trợ nội bộ mỗi ngày, tôi muốn gom nhóm về đúng phòng ban chuyên trách, để chuyển giao kịp thời mà không bị trôi việc khẩn cấp. | Nhân viên trực hòm thư nội bộ, các phòng ban (IT, HR, Kế toán) | Bước 2 (đọc chi tiết nội dung email: 35') và Bước 3 (xác định phòng ban và chuyển tiếp thủ công: 25') — Tổng nghẽn 60' | "Nếu chuyển hòm thư sang Google Forms bắt buộc người gửi chọn sẵn danh mục rồi dùng Rule tự chuyển tiếp thì có cần AI nữa không?" (Huy Anh hỏi) |
-| 4 | Huy Anh | Khi hệ thống kiểm thử phát sinh hàng chục file log lỗi sau đợt cập nhật phần mềm, tôi muốn gom cụm các lỗi giống nhau, để giao đúng lập trình viên sửa mà không phải đọc thủ công từng stack trace. | Kỹ sư đảm bảo chất lượng (QA), nhóm phát triển phần mềm | Đọc dò từng đoạn stack trace và so sánh ngữ cảnh lỗi giữa các tệp log (mất 45'/đợt) | "Các công cụ APM hay Sentry hiện nay đã có rule gom cụm theo exception signature rồi, tại sao không dùng rule sẵn có?" (Dũng hỏi) |
-| 5 | Huy Anh | Khi nhận tài liệu đặc tả yêu cầu kỹ thuật (SRS) dài 30–40 trang từ đối tác, tôi muốn trích xuất nhanh các tiêu chí nghiệm thu và ràng buộc logic, để lập kế hoạch triển khai mà không mất cả ngày đọc lướt. | Lập trình viên chính, kỹ sư phân tích nghiệp vụ | Đọc toàn văn tài liệu và nhặt các điều kiện ràng buộc rải rác trong nhiều chương (mất 75'/tài liệu) | "Tài liệu kỹ thuật của đối tác có nhiều thuật ngữ nghiệp vụ riêng, làm sao đo được việc AI trích xuất có bị thiếu các ràng buộc ngầm không?" (Dũng hỏi) |
-| 6 | Huy Anh | Khi chuẩn bị bộ hồ sơ nghiệm thu đồ án kỹ thuật, tôi muốn kiểm tra nhanh tính đồng bộ giữa mã nguồn và tài liệu hướng dẫn cài đặt, để không bị hội đồng trả về vì thiếu bước cấu hình. | Sinh viên làm đồ án tốt nghiệp, người đánh giá kỹ thuật | Mở máy ảo chạy thử từng lệnh cấu hình theo tài liệu và ghi nhận lỗi không khớp (mất 50'/lần) | "Viết một script Dockerfile hoặc shell script tự động chạy thử từ đầu đến cuối có kiểm tra được việc này nhanh hơn không?" (Dũng hỏi) |
+| 1 | Dũng | Khi cuộc họp giao ban nội bộ kết thúc, tôi muốn có danh sách quyết định và action items có người phụ trách, hạn chót rõ ràng để mọi người triển khai đúng tiến độ. | Người ghi biên bản và 6 thành viên nhóm dự án | Họp 3 lần/tuần; mất 45–60 phút/buổi tua lại ghi âm và tổng hợp; tháng trước có 2 việc trễ do hiểu nhầm phân công miệng. | "Nếu bản ghi âm bị ồn hoặc chỉ có ghi chép gõ vội, mô hình có nguy cơ gán nhầm việc của người này sang người khác không?" (Huy Anh hỏi) |
+| 2 | Dũng | Khi hoàn tất chuyến công tác với 15–20 hóa đơn lẻ, tôi muốn điền chính xác thông tin vào bảng kê hoàn ứng để nộp kế toán đúng hạn quy định. | Nhân viên đi công tác và 1 kế toán thanh toán | Gõ tay 7 trường thông tin và cộng nhẩm mất 90 phút/đợt; 2–3 hóa đơn/đợt bị gõ nhầm số tiền hoặc MST làm chậm hoàn ứng 3–5 ngày. | "Hóa đơn giấy in nhiệt từ quán ăn nhỏ hay bị mờ mực hoặc rách mép, OCR đọc sai thì người dùng vẫn phải ngồi dò lại từng dòng à?" (Huy Anh hỏi) |
+| 3 | Dũng | Khi nhận 40–50 email hỗ trợ nội bộ mỗi ngày, tôi muốn chuyển từng yêu cầu đến đúng phòng ban chuyên trách để việc khẩn không bị chậm trễ. | Nhân viên trực hòm thư chung và các phòng ban xử lý (IT, HR, Kế toán) | Đọc và chuyển email thủ công mất 60 phút/ngày; 3–4 email khẩn/tuần bị trễ hơn 4 giờ do phân loại nhầm hoặc bị trôi trong hòm thư. | "Nếu chuyển hòm thư sang Google Forms bắt buộc người gửi chọn danh mục rồi dùng Rule tự chuyển tiếp thì có cần AI nữa không?" (Huy Anh hỏi) |
+| 4 | Huy Anh | Khi cần soạn công văn hành chính theo mẫu có sẵn, tôi muốn tạo được bản nháp đúng thể thức từ hồ sơ để hoàn thành nhanh và giảm số lần phải sửa. | Cán bộ soạn thảo văn bản, văn thư hoặc người duyệt | Ước lượng 20–40 phút/văn bản; chưa rõ thời gian mất nhiều nhất ở tìm mẫu, tra cứu căn cứ hay chỉnh sửa câu chữ. | "Biểu mẫu và trường dữ liệu công văn đã đủ chuẩn hóa chưa, việc này dùng template mẫu kết hợp mail merge có nhanh hơn không?" (Dũng hỏi) |
+| 5 | Huy Anh | Khi tiếp nhận hồ sơ đề xuất dự án đầu tư tại địa bàn, tôi muốn tập hợp các thông tin và điểm rà soát để thẩm định có hệ thống, không bỏ sót vấn đề cần xin ý kiến. | Cán bộ thẩm định hồ sơ, lãnh đạo và chuyên viên liên quan | Ước lượng mất 2–4 giờ/hồ sơ để đọc và tổng hợp ban đầu; tiêu chí thẩm định phức tạp và tài liệu chưa số hóa đồng bộ. | "Tiêu chí thẩm định có quy định cứng không; AI tổng hợp có nguy cơ làm lệch phán đoán chuyên môn của cán bộ không?" (Dũng hỏi) |
+| 6 | Huy Anh | Khi một phòng ban gửi yêu cầu cần bộ phận khác xử lý, tôi muốn yêu cầu đủ thông tin, chuyển đúng nơi và theo dõi được trạng thái để tránh bị bỏ sót hoặc nhắc lại. | Nhân viên gửi yêu cầu, đầu mối điều phối, bộ phận xử lý | Mất 10–20 phút/yêu cầu để xác định nơi nhận, bổ sung thông tin và theo dõi; phát sinh khoảng 5–10 yêu cầu/tuần. | "Yêu cầu bị chậm chủ yếu do gửi sai nơi, người gửi điền thiếu thông tin, hay bộ phận tiếp nhận bị quá tải?" (Dũng hỏi) |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| **A — Bóc tách & Chuẩn hóa thông tin sau trao đổi** | Candidate #1 (Action Items sau họp), Candidate #5 (Trích xuất yêu cầu tài liệu SRS) | Biến văn bản thô, dài hoặc ngôn ngữ nói thành danh sách các đầu mục hành động có cấu trúc chặt chẽ. |
-| **B — Rà soát & Kiểm tra tính đồng bộ hồ sơ** | Candidate #2 (Nhập hóa đơn hoàn ứng), Candidate #6 (Kiểm tra hồ sơ nghiệm thu đồ án) | Đối chiếu chéo giữa chứng từ/tài liệu với biểu mẫu quy định để phát hiện sai lệch trước khi bàn giao. |
-| **C — Phân loại & Điều phối dữ liệu vận hành** | Candidate #3 (Điều phối email hỗ trợ), Candidate #4 (Gom cụm log lỗi kiểm thử) | Đọc hiểu dữ liệu đầu vào phi cấu trúc (email, log) và gắn nhãn để điều hướng đến đúng người phụ trách. |
+| **A — Điều phối và định tuyến yêu cầu nội bộ** | Dũng #3 (Email hỗ trợ nội bộ), Huy Anh #6 (Chuyển yêu cầu giữa các bộ phận) | Tiếp nhận yêu cầu tự do từ nhiều nguồn, cần đọc hiểu ngữ cảnh, kiểm tra thông tin, gắn nhãn chuyển tiếp đúng đơn vị và theo dõi tiến độ xử lý. Đây là điểm hội tụ lớn nhất của cả hai thành viên. |
+| **B — Bóc tách & Chuẩn hóa đầu ra hành chính** | Dũng #1 (Biên bản & Action items), Huy Anh #4 (Soạn công văn theo mẫu) | Chuyển đổi dữ liệu thô (ghi chép cuộc họp, hồ sơ sự vụ) thành tài liệu có cấu trúc chuẩn theo quy định để ban hành. |
+| **C — Đọc hiểu, đối chiếu và thẩm định hồ sơ** | Dũng #2 (Bảng kê hóa đơn hoàn ứng), Huy Anh #5 (Rà soát rủi ro dự án đầu tư) | Đọc khối lượng lớn chứng từ/tài liệu phức tạp để trích xuất dữ liệu số hoặc lọc điểm rủi ro cần kiểm tra chuyên sâu. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
-Gốc là **1 outcome đo được**. Các nhánh chỉ là **Opportunity (Pain/Nhu cầu)**, không chứa tên công cụ hay giải pháp kỹ thuật.
+Gốc là **1 outcome đo lường được**. Các nhánh chỉ là **Opportunity (Nhu cầu / Nỗi đau)**, không chứa tên công cụ hay giải pháp kỹ thuật.
 
 ```text
-OUTCOME: Giảm thời gian hoàn thành biên bản sau cuộc họp nội bộ từ 70 phút xuống dưới 15 phút mà không sót đầu việc
-├── Opportunity 1 (Pain): Người ghi chép mất 35 phút tua lại file ghi âm chỉ để nghe lại ai nhận việc gì và hạn chót khi nào
-├── Opportunity 2 (Pain): Mất 20 phút ngồi tổng hợp, chuẩn hóa và gõ lại bảng Action Items từ các đoạn ghi chú thô rời rạc
-└── Opportunity 3 (Pain): Các thành viên dự họp hiểu nhầm hoặc quên các cam kết miệng dẫn đến trễ hạn triển khai công việc
+OUTCOME: Giảm 60% thời gian từ lúc phát sinh yêu cầu nội bộ đến khi được xác nhận xử lý đúng nơi, hạn chế tối đa việc chuyển nhầm và tồn đọng việc khẩn
+├── Opportunity 1 (Pain): Người tiếp nhận phải đọc nội dung tự do và mất nhiều thời gian tự phán đoán phòng ban phụ trách
+├── Opportunity 2 (Pain): Nội dung yêu cầu ban đầu gửi đến bị thiếu thông tin cần thiết, buộc phải trao đổi qua lại nhiều lần
+├── Opportunity 3 (Pain): Người gửi không nắm được trạng thái xử lý nên liên tục nhắn tin/gọi điện hỏi dồn
+└── Opportunity 4 (Pain): Các yêu cầu có tính chất giao thoa nhiều bộ phận hoặc khẩn cấp bị thiếu cơ chế gắn cờ ưu tiên rõ ràng
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- **"Chatbot AI tự động phân loại và trả lời email"**: Gạch bỏ vì chatbot là một công cụ công nghệ (solution), không phải nỗi đau của người dùng. Opportunity thật là: 
+- **"Web App / Portal nội bộ để nhân viên gửi ticket theo form bắt buộc"**: Gạch bỏ vì web app là phương án can thiệp quy trình (solution). Opportunity thật là: *"Nội 
+- **"Cài Rule tự động chuyển tiếp email bằng script/filter"**: Gạch bỏ vì script/filter là phương án kỹ thuật (solution). Opportunity thật là: 
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
+Chấm theo 7 tiêu chí chuẩn từ hướng dẫn của môn học:
+1. Actor rõ ràng, tiếp cận được để phỏng vấn.
+2. Quy trình hiện tại vẽ được chi tiết từng bước.
+3. Bottleneck cụ thể, có số phút đo được.
+4. Tác động lớn nếu giải quyết xong.
+5. Vừa sức giải quyết trong khuôn khổ lab.
+6. Có phương án cải tiến không cần dùng AI (so sánh được No AI / Rule / Workflow / Agent).
+7. Cả nhóm cùng hào hứng giải quyết.
+
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| **Điều phối yêu cầu nội bộ (Dũng #3 + Huy Anh #6)** | 5 | 4 | 4 | 4 | 5 | 5 | 5 | **32** |
+| **Action items sau họp nội bộ (Dũng #1)** | 5 | 5 | 4 | 4 | 4 | 4 | 4 | **30** |
+| **Soạn công văn theo mẫu (Huy Anh #4)** | 4 | 4 | 3 | 3 | 5 | 5 | 3 | **27** |
 
-**Candidate được chọn:**
+**Candidate được chọn:** Điều phối yêu cầu nội bộ: tiếp nhận yêu cầu, kiểm tra tính đầy đủ thông tin, xác định đầu mối phòng ban phụ trách và theo dõi trạng thái xử lý.
 
 **Vì sao chọn:**
+- Cả hai thành viên độc lập đều nêu ra cùng một nỗi đau cốt lõi dù ở hai quy mô khác nhau: yêu cầu công việc bị gửi vòng vèo, thiếu thông tin, trôi việc và khó kiểm soát tiến độ.
+- Quy trình có điểm đầu và điểm cuối rõ ràng, xác định được actor cụ thể và đo lường được các chỉ số thành công (thời gian chuyển đúng nơi, tỷ lệ yêu cầu phải hỏi lại, thời gian phản hồi SLA).
+- Đề tài mở ra không gian so sánh rất tốt giữa 4 mức giải pháp: No AI (chuẩn hóa checklist/form), Rule (lọc từ khóa, gán tag cố định), Workflow (AI phân loại ngữ nghĩa có con người duyệt), và Agent (hệ thống tự động điều phối đa kênh).
 
 **Vì sao loại các candidate còn lại:**
+- **Action items sau họp nội bộ (Dũng #1):** Quy trình và baseline rất rõ, nhưng mới chỉ có một thành viên trải nghiệm sâu, chưa tạo được sự giao thoa vấn đề giữa hai thành viên như bài điều phối yêu cầu.
+- **Soạn công văn theo mẫu (Huy Anh #4):** Có thể giải quyết phần lớn bằng thư viện biểu mẫu chuẩn hóa và tính năng trộn văn bản (mail merge), chưa làm rõ được điểm nghẽn thực sự có cần đến AI hay không.
+- **Rà soát đề xuất dự án đầu tư (Huy Anh #5) & Hóa đơn hoàn ứng (Dũng #2):** Dữ liệu đầu vào quá phức tạp hoặc đặc thù, khó có thể chuẩn bị mẫu thử và kiểm chứng người dùng thực tế một cách toàn diện trong thời gian ngắn của buổi lab.
 
 **Xử lý bất đồng (nếu có):**
-
+Dũng ghi nhận số liệu ở hòm thư chung (40–50 email/ngày, mất 60 phút), trong khi Huy Anh ước lượng theo luồng văn bản/phiếu yêu cầu giữa các bộ phận (5–10 yêu cầu/tuần, mất 10–20 phút/yêu cầu). Hai số liệu này phản ánh hai kênh tiếp nhận khác nhau. Nhóm thống nhất trong CP4 sẽ phỏng vấn người thật để chốt xem nên tập trung vào kênh email văn bản tự do hay phiếu yêu cầu trực tuyến, từ đó chuẩn hóa lại một baseline đo lường duy nhất.
 ---
 
 ## 3. Kiểm chứng + research giải pháp đã có (CP4)
